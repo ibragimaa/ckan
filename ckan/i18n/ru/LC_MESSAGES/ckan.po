@@ -415,11 +415,11 @@ msgstr "Время последнего изменения"
 
 #: ckanext/example_idatasetform/templates/package/search.html:16
 msgid "Custom Field Ascending"
-msgstr ""
+msgstr "Пользовательское поле По возрастанию"
 
 #: ckanext/example_idatasetform/templates/package/search.html:17
 msgid "Custom Field Descending"
-msgstr ""
+msgstr "Пользовательское поле По убыванию"
 
 #: ckan/templates/group/read.html:17 ckan/templates/organization/read.html:23
 #: ckan/templates/package/search.html:33
@@ -446,7 +446,7 @@ msgstr "Код страны"
 
 #: ckanext/example_idatasetform/templates/package/snippets/resource_form.html:6
 msgid "custom resource text"
-msgstr ""
+msgstr "пользовательский текст ресурса"
 
 #: ckanext/example_itranslation/templates/home/index.html:4
 msgid "This is an untranslated string"
@@ -505,7 +505,7 @@ msgstr "Ресурсы"
 
 #: ckanext/expire_api_token/templates/user/api_tokens.html:6
 msgid "Second"
-msgstr ""
+msgstr "Секунда"
 
 #: ckanext/expire_api_token/templates/user/api_tokens.html:7
 msgid "Minute"
@@ -560,7 +560,7 @@ msgstr "График"
 #: ckanext/reclineview/theme/public/recline_view.js:211
 #: ckanext/reclineview/theme/public/recline_view.min.js:14
 msgid "Map"
-msgstr "ка́рта"
+msgstr "Карта"
 
 #: ckanext/reclineview/theme/public/recline_view.js:29
 #: ckanext/reclineview/theme/public/recline_view.min.js:1
@@ -643,7 +643,7 @@ msgstr "Поле GeoJSON"
 
 #: ckanext/reclineview/theme/templates/recline_map_form.html:10
 msgid "Auto zoom to features"
-msgstr ""
+msgstr "Автоматическое масштабирование объектов"
 
 #: ckanext/reclineview/theme/templates/recline_map_form.html:11
 msgid "Cluster markers"
@@ -731,7 +731,7 @@ msgstr "Текст"
 #: ckanext/textview/theme/public/text_view.js:70
 #: ckanext/textview/theme/public/text_view.min.js:3
 msgid "An error occured during AJAX request. Could not load view."
-msgstr ""
+msgstr "Во время AJAX-запроса произошла ошибка. Не удалось загрузить представление."
 
 #: ckanext/videoview/plugin.py:25 ckanext/videoview/plugin.py:31
 msgid "Video"
@@ -747,7 +747,7 @@ msgstr ""
 
 #: ckanext/videoview/theme/templates/video_form.html:4
 msgid "Poster url"
-msgstr ""
+msgstr "URL-адрес плаката"
 
 #: ckanext/videoview/theme/templates/video_form.html:4
 msgid "eg. http://example.com/poster.jpg"
@@ -1051,7 +1051,7 @@ msgstr ""
 #: ckan/controllers/group.py:682 ckan/views/group.py:1071
 #, python-format
 msgid "Unauthorized to create group %s members"
-msgstr ""
+msgstr "Неавторизованный для создания членов группы %s"
 
 #: ckan/controllers/group.py:724 ckan/views/group.py:1097
 #, python-format
@@ -1273,11 +1273,11 @@ msgstr "Тип просмотра не найден"
 
 #: ckan/controllers/package.py:1572 ckan/views/resource.py:597
 msgid "Bad resource view data"
-msgstr ""
+msgstr "Плохие данные представления ресурсов"
 
 #: ckan/controllers/package.py:1581 ckan/views/resource.py:605
 msgid "Resource view not supplied"
-msgstr ""
+msgstr "Представление ресурсов не предоставляется"
 
 #: ckan/controllers/package.py:1610 ckan/views/resource.py:908
 msgid "No preview has been defined."
@@ -1368,19 +1368,23 @@ msgstr "Нет прав на запрос о сбросе пароля."
 
 #: ckan/controllers/user.py:454 ckan/views/user.py:604
 msgid "Email is required"
-msgstr ""
+msgstr "Требуется электронная почта"
 
 #: ckan/controllers/user.py:492 ckan/views/user.py:656
 msgid ""
 "Error sending the email. Try again later or contact an administrator for "
 "help"
 msgstr ""
+"Ошибка при отправке электронного письма. Повторите попытку позже или обратитесь к администратору за
+помощью " "
 
 #: ckan/controllers/user.py:500 ckan/views/user.py:664
 msgid ""
 "A reset link has been emailed to you (unless the account specified does not "
 "exist)"
 msgstr ""
+"Вам по электронной почте была отправлена ссылка для сброса (если только указанная учетная запись не "
+"существовать)"
 
 #: ckan/controllers/user.py:514 ckan/views/user.py:686
 msgid "Unauthorized to reset password."
@@ -1572,7 +1576,7 @@ msgstr "Пожалуйста, введите целое число"
 
 #: ckan/lib/navl/validators.py:139
 msgid "Must be a Unicode string value"
-msgstr ""
+msgstr "Должно быть строковое значение в Юникоде"
 
 #: ckan/logic/__init__.py:103 ckan/logic/action/__init__.py:62
 msgid "Package resource(s) invalid"
@@ -1596,15 +1600,15 @@ msgstr "Набор данных"
 
 #: ckan/logic/converters.py:183
 msgid "Could not parse as valid JSON"
-msgstr ""
+msgstr "Не удалось разобрать как действительный JSON"
 
 #: ckan/logic/validators.py:40 ckan/logic/validators.py:49
 msgid "An organization must be provided"
-msgstr ""
+msgstr "Организация должна быть предоставлена"
 
 #: ckan/logic/validators.py:67
 msgid "You cannot move this dataset to another organization"
-msgstr ""
+msgstr "Вы не можете переместить этот набор данных в другую организацию"
 
 #: ckan/logic/validators.py:71
 msgid "Organization does not exist"
@@ -1673,6 +1677,8 @@ msgid ""
 "Must be purely lowercase alphanumeric (ascii) characters and these symbols: "
 "-_"
 msgstr ""
+"Должны быть только строчные буквенно-цифровые символы (ascii) и эти символы: "
+"-_"
 
 #: ckan/logic/validators.py:385
 msgid "That URL is already in use."
@@ -1724,7 +1730,7 @@ msgstr "Тег \"%s\" должен содержать только строчн�
 
 #: ckan/logic/validators.py:568
 msgid "User names must be strings"
-msgstr ""
+msgstr "Имена пользователей должны быть строками"
 
 #: ckan/logic/validators.py:583
 msgid "That login name is not available."
@@ -1732,7 +1738,7 @@ msgstr "Это имя пользователя уже используется"
 
 #: ckan/logic/validators.py:587
 msgid "That login name can not be modified."
-msgstr ""
+msgstr "Это имя входа не может быть изменено."
 
 #: ckan/logic/validators.py:598
 msgid "Please enter both passwords"
@@ -1744,7 +1750,7 @@ msgstr "Пароль должны быть строками"
 
 #: ckan/logic/validators.py:610
 msgid "Your password must be 8 characters or longer"
-msgstr ""
+msgstr "Ваш пароль должен состоять из 8 символов или более"
 
 #: ckan/logic/validators.py:619
 msgid "The passwords you entered do not match"
@@ -1813,7 +1819,7 @@ msgstr "Не строка"
 
 #: ckan/logic/validators.py:811
 msgid "This parent would create a loop in the hierarchy"
-msgstr ""
+msgstr "Этот родительский элемент создаст цикл в иерархии"
 
 #: ckan/logic/validators.py:821
 msgid "\"filter_fields\" and \"filter_values\" should have the same length"
@@ -1829,7 +1835,7 @@ msgstr ""
 
 #: ckan/logic/validators.py:849
 msgid "There is a schema field with the same name"
-msgstr ""
+msgstr "Существует поле схемы с тем же именем"
 
 #: ckan/logic/validators.py:879
 msgid "Email {email} is not a valid format"
@@ -1837,11 +1843,11 @@ msgstr "Неверный формат Email {email}"
 
 #: ckan/logic/validators.py:919
 msgid "Must be a dict"
-msgstr ""
+msgstr "Должно быть, dict"
 
 #: ckan/logic/validators.py:940
 msgid "The email address '{email}' belongs to a registered user."
-msgstr ""
+msgstr "Адрес электронной почты "{email}" принадлежит зарегистрированному пользователю."
 
 #: ckan/logic/validators.py:947
 msgid "Value must be one of {}"
@@ -1849,15 +1855,15 @@ msgstr ""
 
 #: ckan/logic/validators.py:958
 msgid "The value should be a valid JSON object"
-msgstr ""
+msgstr "Значение должно быть одним из {}"
 
 #: ckan/logic/validators.py:960
 msgid "Could not parse the value as a valid JSON object"
-msgstr ""
+msgstr "Не удалось проанализировать значение как допустимый объект JSON"
 
 #: ckan/logic/validators.py:970
 msgid "Could not parse extra '{name}' as valid JSON"
-msgstr ""
+msgstr "Не удалось разобрать дополнительный '{name}' как допустимый JSON"
 
 #: ckan/logic/action/__init__.py:64 ckan/views/util.py:21
 msgid "Missing Value"
@@ -1929,11 +1935,11 @@ msgstr "Вы должны быть авторизованы, чтобы след
 
 #: ckan/logic/action/delete.py:362 ckan/logic/action/get.py:263
 msgid "Package not found"
-msgstr ""
+msgstr "Package not found"
 
 #: ckan/logic/action/delete.py:418
 msgid "Organization cannot be deleted while it still has datasets"
-msgstr ""
+msgstr "Организация не может быть удалена, пока в ней все еще есть наборы данных"
 
 #: ckan/logic/action/delete.py:635 ckan/logic/action/delete.py:661
 #: ckan/logic/action/get.py:2455 ckan/logic/action/update.py:1084
@@ -1961,11 +1967,11 @@ msgstr "Вы не следите {0}."
 
 #: ckan/logic/action/get.py:275 ckan/logic/action/get.py:323
 msgid "Capacity must be one of \"{}\""
-msgstr ""
+msgstr "Емкость должна быть одной из \"{}\""
 
 #: ckan/logic/action/get.py:317
 msgid "Not allowed to retrieve collaborators"
-msgstr ""
+msgstr "Не разрешено извлекать сотрудников"
 
 #: ckan/logic/action/get.py:1097 ckan/logic/action/update.py:76
 #: ckan/logic/action/update.py:90
@@ -1974,7 +1980,7 @@ msgstr "Источник не был найден."
 
 #: ckan/logic/action/get.py:1176
 msgid "Parameter is not an bool"
-msgstr ""
+msgstr "Параметр не является bool"
 
 #: ckan/logic/action/get.py:2056
 msgid "Do not specify if using \"query\" parameter"
@@ -2079,7 +2085,7 @@ msgstr "Пользователь %s не имеет прав для редакт
 #: ckan/logic/auth/create.py:280
 #, python-format
 msgid "User %s not authorized to add collaborators to this dataset"
-msgstr ""
+msgstr "User %s not authorized to add collaborators to this dataset"
 
 #: ckan/logic/auth/delete.py:40
 #, python-format
@@ -2570,16 +2576,16 @@ msgid "Error %(error_code)s"
 msgstr "Ошибка %(error_code)s"
 
 #: ckan/templates/footer.html:9
-msgid "About {0}"
-msgstr "Про {0}"
+msgid ""
+msgstr ""
 
 #: ckan/templates/footer.html:15
 msgid "CKAN API"
 msgstr "CKAN API"
 
 #: ckan/templates/footer.html:16
-msgid "CKAN Association"
-msgstr "Ассоциация CKAN"
+msgid ""
+msgstr ""
 
 #: ckan/templates/footer.html:24
 msgid ""
@@ -2752,23 +2758,23 @@ msgstr ""
 #: ckan/templates/admin/index.html:20
 #, python-format
 msgid ""
-"<p>As a sysadmin user you have full control over this CKAN instance. Proceed"
-" with care!</p> <p>For guidance on using sysadmin features, see the CKAN  <a"
-" href=\"%(docs_url)s\" target=\"_blank\">sysadmin guide</a></p>"
+"<p>As a sysadmin user you have full control over this instance. Proceed with care! </p>"
 msgstr ""
+"<p>Как пользователь системного администратора, вы имеете полный контроль над этим экземпляром. Действуйте с осторожностью! </p>"
 
 #: ckan/templates/admin/trash.html:12
 msgid "Are you sure you want to purge everything?"
-msgstr ""
+msgstr "Вы уверены, что хотите все очистить?"
 
 #: ckan/templates/admin/trash.html:13
 msgid "Purge all"
-msgstr ""
+msgstr "Очистите все"
 
 #: ckan/templates/admin/trash.html:31
 msgid ""
 "Purge deleted datasets, organizations or groups forever and irreversibly."
 msgstr ""
+"Удаляйте удаленные наборы данных, организации или группы навсегда и необратимо."
 
 #: ckan/templates/admin/snippets/confirm_delete.html:3
 #: ckan/templates/admin/snippets/confirm_delete.html:17
@@ -3126,11 +3132,16 @@ msgstr "Что такое группы?"
 
 #: ckan/templates/group/snippets/helper.html:8
 msgid ""
-"You can use CKAN Groups to create and manage collections of datasets. This "
+"You can use Groups to create and manage collections of datasets. This "
 "could be to catalogue datasets for a particular project or team, or on a "
 "particular theme, or as a very simple way to help people find and search "
 "your own published datasets."
 msgstr ""
+"Вы можете использовать группы для создания коллекций наборов данных и управления ими. Это "
+"" - это каталогизация наборов данных для конкретного проекта или команды, или по определенной
+теме, или как очень простой способ помочь людям находить
+ваши собственные опубликованные наборы данных."
+
 
 #: ckan/templates/group/snippets/info.html:16
 #: ckan/templates/organization/bulk_process.html:82
@@ -3152,58 +3163,23 @@ msgstr "Добро пожаловать в"
 
 #: ckan/templates/home/snippets/about_text.html:1
 msgid ""
-"<p>CKAN is the world’s leading open-source data portal platform.</p> <p>CKAN"
-" is a complete out-of-the-box software solution that makes data accessible "
-"and usable – by providing tools to streamline publishing, sharing, finding "
-"and using data (including storage of data and provision of robust data "
-"APIs). CKAN is aimed at data publishers (national and regional governments, "
-"companies and organizations) wanting to make their data open and "
-"available.</p> <p>CKAN is used by governments and user groups worldwide and "
-"powers a variety of official and community data portals including portals "
-"for local, national and international government, such as the UK’s <a "
-"href=\"http://data.gov.uk\">data.gov.uk</a> and the European Union’s <a "
-"href=\"http://publicdata.eu/\">publicdata.eu</a>, the Brazilian <a "
-"href=\"http://dados.gov.br/\">dados.gov.br</a>, Dutch and Netherland "
-"government portals, as well as city and municipal sites in the US, UK, "
-"Argentina, Finland and elsewhere.</p> <p>CKAN: <a "
-"href=\"http://ckan.org/\">http://ckan.org/</a><br /> CKAN Tour: <a "
-"href=\"http://ckan.org/tour/\">http://ckan.org/tour/</a><br /> Features "
-"overview: <a "
-"href=\"http://ckan.org/features/\">http://ckan.org/features/</a></p>"
+"<p>The reporting catalog is a tool for flexible search of reports and indicators posted on open information resources. The tool was created for the purpose of de-bureaucratization, and the implementation of a ban on state bodies to request and transmit information available at state informatization facilities.</p>"
 msgstr ""
-"<p>CKAN является ведущей платформой в мире для публикации открытых "
-"данных.</p> <p>CKAN является готовым программным решением из коробки, "
-"которое делает данные доступными и используемыми - предоставляя инструменты "
-"для упорядочения, публикации, обмена, поиска и использования данных (включая"
-" хранение данных и предоставление надежных API). CKAN предназначен для "
-"издателей данных (национальных и региональных правительств, компаний и "
-"организаций), помогая сделать их данные открытыми и доступными.</p> <p>CKAN "
-"используется правительствами и сообществами по всему миру, включая порталы "
-"для местных, национальных и международных правительственных организаций, "
-"таких как Великобритания <a href=\"http://data.gov.uk\">data.gov.uk</a> и "
-"Европейский Союз <a href=\"http://publicdata.eu/\">publicdata.eu</a>, "
-"Бразилия  <a href=\"http://dados.gov.br/\">dados.gov.br</a>, Голландия и "
-"Нидерланды, а также городские и муниципальные сайты в США, Великобритании, "
-"Аргентине, Финляндии и других странах </p> <p>CKAN: <a "
-"href=\"http://ckan.org/\">http://ckan.org/</a><br /> CKAN Тур: <a "
-"href=\"http://ckan.org/tour/\">http://ckan.org/tour/</a><br /> Особенности: "
-"<a href=\"http://ckan.org/features/\">http://ckan.org/features/</a></p>"
+"<p>Каталог отчетности - это инструмент для гибкого поиска отчетов и показателей размещенных на открытых информационных ресурсах. Инструмент создан в целях дебюрократизации, и реализации запрета государственным органам запрашивать и передавать сведения, доступные на государственных объектах информатизации.</p>"
 
 #: ckan/templates/home/snippets/promoted.html:8
-msgid "Welcome to CKAN"
-msgstr "Добро пожаловать в CKAN"
+msgid "Welcome to reporting catalog"
+msgstr "Добро пожаловать в каталог отчётов" 
 
 #: ckan/templates/home/snippets/promoted.html:10
 msgid ""
-"This is a nice introductory paragraph about CKAN or the site in general. We "
-"don't have any copy to go here yet but soon we will"
+"Here you will find reports, indicators posted on open information resources of the Republic of Kazakhstan."
 msgstr ""
-"Это хороший вводный абзац о CKAN или для сайта в целом. Мы еще не "
-"выкладывали сюда копий, но скоро мы это сделаем"
+"Здесь вы найдете отчёты, показатели, размещенные на открытых информационных ресурсах Республики Казахстан."
 
 #: ckan/templates/home/snippets/promoted.html:19
 msgid "This is a featured section"
-msgstr "."
+msgstr "Это рекомендуемый раздел"
 
 #: ckan/templates/home/snippets/search.html:2
 msgid "E.g. environment"
@@ -3218,8 +3194,8 @@ msgid "Popular tags"
 msgstr "Популярные теги"
 
 #: ckan/templates/home/snippets/stats.html:5
-msgid "{0} statistics"
-msgstr ""
+msgid "Report catalog statistics"
+msgstr "Статистика каталога отчётов"
 
 #: ckan/templates/home/snippets/stats.html:11
 msgid "dataset"
@@ -3270,7 +3246,7 @@ msgstr "Форма содержит неверные значения"
 
 #: ckan/templates/macros/form.html:417
 msgid "Required field"
-msgstr ""
+msgstr "Обязательное поле"
 
 #: ckan/templates/macros/form.html:432
 msgid "http://example.com/my-image.jpg"
@@ -3282,11 +3258,11 @@ msgstr "URL картинки"
 
 #: ckan/templates/macros/form.html:459
 msgid "Clear Upload"
-msgstr ""
+msgstr "Очистить загрузку"
 
 #: ckan/templates/organization/base_form_page.html:5
 msgid "Add an Organization"
-msgstr ""
+msgstr "Добавление организации"
 
 #: ckan/templates/organization/base_form_page.html:10
 msgid "Organization Form"
@@ -3429,10 +3405,13 @@ msgstr ""
 
 #: ckan/templates/organization/snippets/helper.html:8
 msgid ""
-"CKAN Organizations are used to create, manage and publish collections of "
+"Organizations are used to create, manage and publish collections of "
 "datasets. Users can have different roles within an Organization, depending "
 "on their level of authorisation to create, edit and publish."
 msgstr ""
+"Организации используются для создания, управления и публикации коллекций
+наборов данных " ". Пользователи могут иметь разные роли в Организации, в зависимости "
+"об их уровне полномочий на создание, редактирование и публикацию."
 
 #: ckan/templates/organization/snippets/organization_form.html:10
 msgid "My Organization"
@@ -3468,10 +3447,13 @@ msgstr "Какие пакеты данных?"
 
 #: ckan/templates/package/base_form_page.html:25
 msgid ""
-"A CKAN Dataset is a collection of data resources (such as files), together "
+"A Dataset is a collection of data resources (such as files), together "
 "with a description and other information, at a fixed URL. Datasets are what "
 "users see when searching for data."
 msgstr ""
+"Набор данных - это набор ресурсов данных (таких как файлы) "
+"вместе с описанием и другой информацией по фиксированному URL."
+"Наборы данных - это то, что пользователи видят при поиске данных. "
 
 #: ckan/templates/package/changes.html:9
 #: ckan/templates/package/changes.html:17
@@ -3957,8 +3939,8 @@ msgstr "1.0"
 #: ckan/templates/package/snippets/package_metadata_fields.html:14
 #: ckan/templates/package/snippets/package_metadata_fields.html:20
 #: ckan/templates/user/new_user_form.html:6
-msgid "Joe Bloggs"
-msgstr "Joe Bloggs"
+msgid "Maghzhan Zhumabaiev"
+msgstr "Магжан Жумабаев"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:16
 msgid "Author Email"
@@ -4388,15 +4370,15 @@ msgstr "{actor} удалил тег {tag} из набора данных {datase
 
 #: ckan/templates/snippets/changes/author.html:5
 msgid "Set author of {pkg_link} to {new_author} (previously {old_author})"
-msgstr ""
+msgstr "Установите автору {pkg_link} значение {new_author} (ранее {old_author})"
 
 #: ckan/templates/snippets/changes/author.html:17
 msgid "Set author of {pkg_link} to {new_author}"
-msgstr ""
+msgstr "Установите автору {pkg_link} значение {new_author}"
 
 #: ckan/templates/snippets/changes/author.html:28
 msgid "Removed author from {pkg_link}"
-msgstr ""
+msgstr "Удален автор из {pkg_link}"
 
 #: ckan/templates/snippets/changes/author.html:38
 #: ckan/templates/snippets/changes/author_email.html:45
@@ -4420,34 +4402,36 @@ msgid ""
 "Set author email of {pkg_link} to {new_author_email} (previously "
 "{old_author_email})"
 msgstr ""
+"Установите адрес электронной почты автора {pkg_link} на {new_author_email} (ранее "
+"{old_author_email})"
 
 #: ckan/templates/snippets/changes/author_email.html:23
 msgid "Set author email of {pkg_link} to {new_author_email}"
-msgstr ""
+msgstr "Установите адрес электронной почты автора {pkg_link} на {new_author_email}"
 
 #: ckan/templates/snippets/changes/author_email.html:36
 msgid "Removed author email from {pkg_link}"
-msgstr ""
+msgstr "Удалено электронное письмо автора из {pkg_link}"
 
 #: ckan/templates/snippets/changes/delete_resource.html:3
 msgid "Deleted resource {resource_link} from {pkg_link}"
-msgstr ""
+msgstr "Удаленный ресурс {resource_link} из {pkg_link}"
 
 #: ckan/templates/snippets/changes/extension_fields.html:3
 msgid "Changed value of field <q>{key}</q> to <q>{value}</q> in {pkg_link}"
-msgstr ""
+msgstr "Изменено значение поля <q>{key}</q> на <q>{value}</q> в {pkg_link}"
 
 #: ckan/templates/snippets/changes/extra_fields.html:5
 msgid "Added field <q>{key}</q> with value <q>{value}</q> to {pkg_link}"
-msgstr ""
+msgstr "Добавлено поле <q>{key}</q> со значением <q>{value}</q> в {pkg_link}"
 
 #: ckan/templates/snippets/changes/extra_fields.html:17
 msgid "Added field <q>{key}</q> to {pkg_link}"
-msgstr ""
+msgstr "Добавлено поле <q>{key}</q> в {pkg_link}"
 
 #: ckan/templates/snippets/changes/extra_fields.html:28
 msgid "Added the following fields to {pkg_link}"
-msgstr ""
+msgstr "Добавлены следующие поля в {pkg_link}"
 
 #: ckan/templates/snippets/changes/extra_fields.html:39
 #: ckan/templates/snippets/changes/resource_extras.html:56
@@ -4458,7 +4442,7 @@ msgstr ""
 #: ckan/templates/snippets/changes/resource_extras.html:61
 #: ckan/templates/snippets/changes/resource_extras.html:102
 msgid "{key}"
-msgstr ""
+msgstr "{key} со значением {value}"
 
 #: ckan/templates/snippets/changes/extra_fields.html:54
 msgid ""
@@ -4472,20 +4456,23 @@ msgstr ""
 
 #: ckan/templates/snippets/changes/extra_fields.html:79
 msgid "Removed field <q>{key}</q> from {pkg_link}"
-msgstr ""
+msgstr "Изменено значение поля <q>{кey}</q> на <q>{new_val}</q> (ранее "
+"<q>{old_val}</q>) в {pkg_link}"
 
 #: ckan/templates/snippets/changes/extra_fields.html:90
 msgid "Removed the following fields from {pkg_link}"
-msgstr ""
+msgstr "Удалены следующие поля из {pkg_link}"
 
 #: ckan/templates/snippets/changes/extra_fields.html:100
 msgid "<q>{key}</q>"
-msgstr ""
+msgstr "<q>{key}</q>"
 
 #: ckan/templates/snippets/changes/license.html:6
 msgid ""
 "Changed the license of {pkg_link} to {new_link} (previously {old_link})"
 msgstr ""
+"Изменена лицензия {pkg_link} на {new_link} (ранее {old_link})"
+msgstr"
 
 #: ckan/templates/snippets/changes/license.html:25
 msgid ""
@@ -4584,7 +4571,7 @@ msgstr ""
 
 #: ckan/templates/snippets/changes/resource_desc.html:22
 msgid "Removed description from resource {resource_link} in {pkg_link}"
-msgstr ""
+msgstr "Удалено описание из ресурса {resource_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_desc.html:38
 msgid ""
@@ -4592,113 +4579,130 @@ msgid ""
 "class=\"line-height2\"><blockquote>{old_desc}</blockquote> to <br "
 "class=\"line-height2\"><blockquote>{new_desc}</blockquote>"
 msgstr ""
+"Обновлено описание ресурса {resource_link} в {pkg_link} из <br "
+""class=\"высота строки 2\"><blockquote>{old_desc}</blockquote> в <br "
+""класс=\"высота строки 2\"><цитата из блока>{new_desc}</цитата из блока>"
 
 #: ckan/templates/snippets/changes/resource_extras.html:5
 msgid ""
 "Added field <q>{key}</q> with value <q>{value}</q> to resource "
 "{resource_link} in {pkg_link}"
 msgstr ""
+"Добавлено поле <q>{key}</q> со значением <q>{value}</q> к ресурсу "
+"{resource_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_extras.html:23
 msgid "Added field <q>{key}</q> to resource {resource_link} in {pkg_link}"
-msgstr ""
+msgstr "Добавлено поле <q>{key}</q> к ресурсу {resource_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_extras.html:40
 msgid "Added the following fields to resource {resource_link} in {pkg_link}"
-msgstr ""
+msgstr "Добавлены следующие поля к ресурсу {resource_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_extras.html:70
 msgid "Removed field <q>{key}</q> from resource {resource_link} in {pkg_link}"
-msgstr ""
+msgstr "Удалено поле <q>{key}</q> из ресурса {resource_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_extras.html:87
 msgid ""
 "Removed the following fields from resource {resource_link} in {pkg_link}"
 msgstr ""
+"Удалены следующие поля из ресурса {resource_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_extras.html:110
 msgid ""
 "Changed value of field <q>{key}</q> of resource {resource_link} to "
 "<q>{new_val}</q> (previously <q>{old_val}</q>) in {pkg_link}"
 msgstr ""
+"Изменено значение поля <q>{key}</q> ресурса {resource_link} на "
+"<q>{new_val}</q> (ранее <q>{old_val}</q>) в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_extras.html:129
 msgid ""
 "Changed value of field <q>{key}</q> to <q>{new_val}</q> in resource "
 "{resource_link} in {pkg_link}"
 msgstr ""
+"Изменено значение поля <q>{key}</q> на <q>{new_val}</q> в ресурсе "
+"{resource_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_extras.html:147
 msgid ""
 "Removed the value of field <q>{key}</q> in resource {resource_link} in "
 "{pkg_link}"
 msgstr ""
+"Удалено значение поля <q>{key}</q> в ресурсе {resource_link} в "
+"{pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_format.html:10
 msgid "Set format of resource {resource_link} to {format_link} in {pkg_link}"
-msgstr ""
+msgstr "Установите формат ресурса {resource_link} на {format_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_format.html:30
 msgid ""
 "Set format of resource {resource_link} to {new_format_link} (previously "
 "{old_format_link}) in {pkg_link}"
 msgstr ""
+"Установить формат ресурса {resource_link} на {new_format_link} (ранее "
+"{old_format_link}) в {pkg_link}"
 
 #: ckan/templates/snippets/changes/resource_name.html:3
 msgid ""
 "Renamed resource {old_resource_link} to {new_resource_link} in {pkg_link}"
 msgstr ""
+"Переименован ресурс {old_resource_link} в {new_resource_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/tags.html:5
 msgid "Removed tag {tag_link} from {pkg_link}"
-msgstr ""
+msgstr "Удален тег {tag_link} из {pkg_link}"
 
 #: ckan/templates/snippets/changes/tags.html:20
 msgid "Removed the following tags from {pkg_link}"
-msgstr ""
+msgstr "Удалены следующие теги из {pkg_link}"
 
 #: ckan/templates/snippets/changes/tags.html:31
 #: ckan/templates/snippets/changes/tags.html:70
 msgid "{tag_link}"
-msgstr ""
+msgstr "{tag_link}"
 
 #: ckan/templates/snippets/changes/tags.html:44
 msgid "Added tag {tag_link} to {pkg_link}"
-msgstr ""
+msgstr "Добавлен тег {tag_link} в {pkg_link}"
 
 #: ckan/templates/snippets/changes/tags.html:59
 msgid "Added the following tags to {pkg_link}"
-msgstr ""
+msgstr "Добавлены следующие теги в {pkg_link}"
 
 #: ckan/templates/snippets/changes/title.html:3
 msgid "Changed title to {title_link} (previously {old_title})"
-msgstr ""
+msgstr "Изменен заголовок на {title_link} (ранее {old_title})"
 
 #: ckan/templates/snippets/changes/url.html:5
 msgid "Changed the source URL of {pkg_link} from {old_link} to {new_link}"
-msgstr ""
+msgstr "Изменен исходный URL-адрес {pkg_link} с {old_link} на {new_link}"
 
 #: ckan/templates/snippets/changes/url.html:23
 msgid "Removed the source URL from {pkg_link}"
-msgstr ""
+msgstr "Удален исходный URL-адрес из {pkg_link}"
 
 #: ckan/templates/snippets/changes/url.html:33
 msgid "Changed the source URL of {pkg_link} to {new_link}"
-msgstr ""
+msgstr "Изменен исходный URL-адрес {pkg_link} на {new_link}"
 
 #: ckan/templates/snippets/changes/version.html:5
 msgid ""
 "Changed the version of {pkg_link} to {new_version} (previously "
 "{old_version})"
 msgstr ""
+"Изменена версия {pkg_link} на {new_version} (ранее "
+"{old_version})"
 
 #: ckan/templates/snippets/changes/version.html:17
 msgid "Removed the version from {pkg_link}"
-msgstr ""
+msgstr "Удалена версия из {pkg_link}"
 
 #: ckan/templates/snippets/changes/version.html:27
 msgid "Changed the version of {pkg_link} to {new_version}"
-msgstr ""
+msgstr "Изменена версия {pkg_link} на {new_version}"
 
 #: ckan/templates/tag/index.html:33 ckan/templates/tag/index.html:34
 msgid "Search Tags"
@@ -4706,16 +4710,16 @@ msgstr "Поиск тэгов"
 
 #: ckan/templates/user/api_tokens.html:19
 msgid "Create API Token"
-msgstr ""
+msgstr "Create API Token"
 
 #: ckan/templates/user/api_tokens.html:29
 #: ckan/templates/user/read_base.html:22
 msgid "API Tokens"
-msgstr ""
+msgstr "API Tokens"
 
 #: ckan/templates/user/api_tokens.html:37
 msgid "You haven't created any API Tokens."
-msgstr ""
+msgstr "Вы не создали никаких токенов API."
 
 #: ckan/templates/user/dashboard.html:19 ckan/templates/user/dashboard.html:37
 msgid "News feed"
@@ -4738,7 +4742,7 @@ msgstr "Мои группы"
 
 #: ckan/templates/user/dashboard.html:39
 msgid "Activity from items that I'm following"
-msgstr ""
+msgstr "Активность из элементов, за которыми я слежу"
 
 #: ckan/templates/user/dashboard_datasets.html:17
 #: ckan/templates/user/read.html:20
@@ -4773,9 +4777,9 @@ msgstr "Информация об аккаунте"
 
 #: ckan/templates/user/edit.html:19
 msgid ""
-"Your profile lets other CKAN users know about who you are and what you do."
+"Your profile lets other users know about who you are and what you do."
 msgstr ""
-"Ваш профиль позволяет другим CKAN-пользователям знать кто Вы есть и что Вы "
+"Ваш профиль позволяет другим пользователям знать кто Вы есть и что Вы "
 "делаете"
 
 #: ckan/templates/user/edit_user_form.html:7
@@ -4787,12 +4791,12 @@ msgid "Full name"
 msgstr "Полное имя"
 
 #: ckan/templates/user/edit_user_form.html:10
-msgid "eg. Joe Bloggs"
-msgstr "eg. Joe Bloggs"
+msgid "eg. Maghzhan Zhumabaiev"
+msgstr "напр. Магжан Жумабаев"
 
 #: ckan/templates/user/edit_user_form.html:12
-msgid "eg. joe@example.com"
-msgstr "eg. joe@example.com"
+msgid "eg. zhumabaiev@nitec.kz"
+msgstr "напр. zhumabaiev@nitec.kz"
 
 #: ckan/templates/user/edit_user_form.html:14
 msgid "A little information about yourself"
@@ -4805,12 +4809,12 @@ msgstr "Подпишитесь на рассылку уведомлений"
 #: ckan/templates/user/edit_user_form.html:26
 #: ckan/templates/user/new_user_form.html:14
 msgid "Profile picture"
-msgstr ""
+msgstr "Фотография профиля"
 
 #: ckan/templates/user/edit_user_form.html:26
 #: ckan/templates/user/new_user_form.html:14
 msgid "Profile picture URL"
-msgstr ""
+msgstr "URL-адрес изображения профиля"
 
 #: ckan/templates/user/edit_user_form.html:31
 msgid "Change password"
@@ -4818,7 +4822,7 @@ msgstr "Сменить пароль"
 
 #: ckan/templates/user/edit_user_form.html:34
 msgid "Sysadmin Password"
-msgstr ""
+msgstr "Пароль системного администратора"
 
 #: ckan/templates/user/edit_user_form.html:42
 #: ckan/templates/user/logout_first.html:11
@@ -4838,7 +4842,7 @@ msgstr "Вы уверены, что хотите удалить этого По�
 
 #: ckan/templates/user/edit_user_form.html:55
 msgid "Are you sure you want to regenerate the API key?"
-msgstr ""
+msgstr "Вы уверены, что хотите повторно создать ключ API?"
 
 #: ckan/templates/user/edit_user_form.html:55
 msgid "Regenerate API Key"
@@ -4877,8 +4881,7 @@ msgstr "Забыли пароль?"
 
 #: ckan/templates/user/login.html:44
 msgid "No problem, use our password recovery form to reset it."
-msgstr ""
-"Все в порядке, используйте нашу форму восстановления пароля для его сброса."
+msgstr "Все в порядке, используйте нашу форму восстановления пароля для его сброса."
 
 #: ckan/templates/user/login.html:47
 msgid "Forgot your password?"
@@ -4957,7 +4960,7 @@ msgstr "Сброс пароля"
 
 #: ckan/templates/user/perform_reset.html:21
 msgid "You can also change username. It can not be modified later."
-msgstr ""
+msgstr "Вы также можете изменить имя пользователя. Он не может быть изменен позже."
 
 #: ckan/templates/user/perform_reset.html:29
 msgid "Update Password"
@@ -5007,33 +5010,34 @@ msgstr "Восстановить Ваш пароль"
 
 #: ckan/templates/user/request_reset.html:17
 msgid "Email or username"
-msgstr ""
+msgstr "Адрес электронной почты или имя пользователя"
 
 #: ckan/templates/user/request_reset.html:22
 msgid "Request Reset"
-msgstr ""
+msgstr "Запрос на Сброс"
 
 #: ckan/templates/user/request_reset.html:38
 msgid ""
 "Enter your email address or username into the box and we will send you an "
 "email with a link to enter a new password."
-msgstr ""
+msgstr "Введите свой адрес электронной почты или имя пользователя в поле, и мы отправим вам
+электронное письмо " " со ссылкой для ввода нового пароля."
 
 #: ckan/templates/user/snippets/api_token_list.html:13
 msgid "Token"
-msgstr ""
+msgstr "Токен"
 
 #: ckan/templates/user/snippets/api_token_list.html:14
 msgid "Last access"
-msgstr ""
+msgstr "Последний доступ"
 
 #: ckan/templates/user/snippets/api_token_list.html:15
 msgid "Actions"
-msgstr ""
+msgstr "Действия"
 
 #: ckan/templates/user/snippets/api_token_list.html:40
 msgid "Revoke"
-msgstr ""
+msgstr "Отозвать"
 
 #: ckan/templates/user/snippets/followee_dropdown.html:15
 #: ckan/templates/user/snippets/followee_dropdown.html:16
@@ -5058,62 +5062,62 @@ msgstr "Поиск пользователей"
 
 #: ckan/views/admin.py:203
 msgid "Massive purge complete"
-msgstr ""
+msgstr "Массовая чистка завершена"
 
 #: ckan/views/admin.py:212
 msgid "success"
-msgstr ""
+msgstr "успешно"
 
 #: ckan/views/dataset.py:360
 msgid "Parameter u\"{parameter_name}\" is not an integer"
-msgstr ""
+msgstr "Параметр u\"{имя_параметра}\" не является целым числом"
 
 #: ckan/views/dataset.py:451 ckan/views/dataset.py:469
 #: ckan/views/dataset.py:1132 ckan/views/dataset.py:1213
 #: ckan/views/resource.py:81
 msgid "Activity not found"
-msgstr ""
+msgstr "Активность не найдена"
 
 #: ckan/views/dataset.py:453 ckan/views/dataset.py:1134
 #: ckan/views/dataset.py:1215
 msgid "Unauthorized to view activity data"
-msgstr ""
+msgstr "Несанкционированный просмотр данных о деятельности"
 
 #: ckan/views/dataset.py:462
 msgid "The detail of this dataset activity is not available"
-msgstr ""
+msgstr "Подробная информация об этом действии набора данных недоступна"
 
 #: ckan/views/dataset.py:604
 msgid "Unauthorized to read package"
-msgstr ""
+msgstr "Неавторизованный для чтения пакет"
 
 #: ckan/views/dataset.py:1249
 msgid "Unauthorized to read collaborators {}"
-msgstr ""
+msgstr "Неавторизованные для чтения сотрудники {}"
 
 #: ckan/views/dataset.py:1267
 msgid "Unauthorized to delete collaborators {}"
-msgstr ""
+msgstr "Несанкционированное удаление соавторов {}"
 
 #: ckan/views/dataset.py:1272
 msgid "User removed from collaborators"
-msgstr ""
+msgstr "Пользователь удален из соавторов"
 
 #: ckan/views/dataset.py:1304
 msgid "Unauthorized to edit collaborators {}"
-msgstr ""
+msgstr "Несанкционированный доступ к редактированию соавторов {}"
 
 #: ckan/views/dataset.py:1311
 msgid "User added to collaborators"
-msgstr ""
+msgstr "Пользователь, добавленный в соавторы"
 
 #: ckan/views/user.py:169
 msgid "Unauthorized to view API tokens."
-msgstr ""
+msgstr "Несанкционированный просмотр токенов API."
 
 #: ckan/views/user.py:203
 msgid "Unauthorized to create API tokens."
-msgstr ""
+msgstr "Неавторизованный для создания токенов API."
 
 #: ckan/views/user.py:218
 msgid ""
@@ -5123,11 +5127,11 @@ msgstr ""
 
 #: ckan/views/user.py:234
 msgid "Unauthorized to revoke API tokens."
-msgstr ""
+msgstr "Несанкционированный отзыв токенов API."
 
 #: ckan/views/user.py:706
 msgid "Your password must be 8 characters or longer."
-msgstr ""
+msgstr "Ваш пароль должен состоять не менее чем из 8 символов."
 
 #: ckan/views/util.py:26
 msgid "Redirecting to external site is not allowed."
